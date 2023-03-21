@@ -4,4 +4,4 @@
 
 ##You can create your own alpaca using different preset styles!
 
- ![My Alpaca](my_alpaca.jpg)
+ ![My Alpaca](my_alpaca.jpeg)
