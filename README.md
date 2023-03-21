@@ -1,2 +1,7 @@
-# Alpaca-image-generator
-YOU CAN CREAT YOUR OWN ALPACA!!!
+#**Alpaca Image Generator**
+
+*Mainly made with Javascript and tiny CSS work.*
+
+##You can create your own alpaca using different preset styles!
+
+ ![My Alpaca](my_alpaca.jpg)
