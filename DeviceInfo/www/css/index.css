@@ -1,104 +1,13 @@
-@import "https://unpkg.com/open-props";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-* {
-    font-family: 'Roboto', sans-serif;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-color: rgb(220, 220, 220);
-}
-
-h1,
-h3 {
-    padding-top: 1em;
-    text-align: center;
-    margin: 0;
-    background-color: rgb(220, 220, 220);
-}
-
-#wrapper {
-    padding-top: 2em;
-    display: flex;
-    place-content: center;
-    gap: 5%;
-    align-items: center;
-}
-
-#mainImage {
-    width: 250px;
-    height: 250px;
-}
-
-img {
-    height: inherit;
-    position: absolute;
-}
-
-
-/**/
-
-#nose {
-    top: 192px
-}
-
-#accessories {
-    margin-left: 3px;
-}
-
-
-/**/
-
-#choices {
-    top: -1em;
-    width: 375px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-}
-
-button {
-    font-size: 1em;
-    padding: .5em 1em;
-    background-color: transparent;
-    border: 1px solid rgba(0, 0, 255, 0.4);
-    color: rgba(0, 0, 255, 0.4);
-    border-radius: 1em;
-    margin: .5em .5em 0 0;
-}
-
-button:hover {
-    border: 1px solid rgba(0, 0, 255);
-    color: rgba(0, 0, 255);
-}
-
-button:focus {
-    background-color: blue;
-    color: white;
-}
-
-#btn-download {
-    position: absolute;
-    top: 450px;
-    margin-left: 25px;
-}
-
-#accesorize {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    border-radius: 1em;
-    padding: 1em;
-}
-
-#style {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    overflow-y: scroll;
-    height: 150px;
-    border-radius: 1em;
-    padding: 1em;
-    background-color: rgb(190, 190, 190);
-}
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    th,
+    td {
+        text-align: left;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
