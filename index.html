@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <title>Alpaca Image Generator</title>
+    <script src="node_modules\html2canvas\dist\html2canvas.js"></script>
+</head>
+
+<body>
+    <h1 id="title">ALPACA GENERATOR</h1>
+    <div id="wrapper">
+        <div id="mainImage"><button id="btn-download" onclick="screenshot()">Download your Alpaca!</button>
+            <img src="alpaca/backgrounds/blue-3.png" id="background">
+            <img src="alpaca/ears/default.png" id="ears">
+            <img src="alpaca/neck/default.png" id="neck">
+            <img src="alpaca/nose.png" id="nose">
+            <img src="alpaca/hair/default.png" id="hair">
+            <img src="alpaca/eyes/default.png" id="eyes">
+            <img src="alpaca/mouth/default.png" id="mouth">
+            <img src="alpaca/leg/default.png" id="leg">
+            <img src="" id="accessories">
+        </div>
+        <div id="choices">
+            <h3>ACCESORIZE THE ALPACA</h3>
+            <div id="accesorize">
+                <button id="btnHair" onclick="btnHair()">Hair</button><button id="btnEars" onclick="btnEars()">Ears</button><button id="btnEyes" onclick="btnEyes()">Eyes</button><button id="btnMouth" onclick="btnMouth()">Mouth</button><button id="btnNeck"
+                    onclick="btnNeck()">Neck</button><button id="btnLeg" onclick="btnLeg()">Leg</button><button id="btnAccessories" onclick="btnAccessories()">Accessories</button><button id="btnBackground" onclick="btnBackground()">Background</button>
+            </div>
+            <h3>STYLE</h3>
+            <div id="style">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="./resources/javascript/script.js"></script>
+</body>
+
+</html>
